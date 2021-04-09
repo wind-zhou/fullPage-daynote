@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.bootcdn.net/ajax/libs/animate.css/4.1.1/animate.compat.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/fullpage.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/fullpage.js"></script>
+    <script src="./js/main.js"></script>
+    <title>演示fullpage</title>
+</head>
+
+<body>
+
+    <ul id="menu">
+        <li data-menuanchor="page1">
+            <a href="#page1">第一</a>
+        </li>
+        <li data-menuanchor="page2">
+            <a href="#page2">第二</a>
+        </li>
+        <li data-menuanchor="page3">
+            <a href="#page3">第三</a>
+        </li>
+        <li data-menuanchor="page4">
+            <a href="#page4"> 第四</a>
+        </li>
+        <li data-menuanchor="page5">
+            <a href="#page5">第五</a>
+        </li>
+    </ul>
+
+
+    <div id="fullpage">
+        <div class="section">第一屏</div>
+        <div class="section">
+            <div class="show animated">
+                演示animate动画
+            </div>
+        </div>
+        <div class="section">
+            <div class="slide">第三屏的第一屏</div>
+            <div class="slide">第三屏的第二屏</div>
+            <div class="slide">第三屏的第三屏</div>
+            <div class="slide">第三屏的第四屏</div>
+        </div>
+        <div class="section">
+            <div class="con">
+                <img src="./img/city.png" class="img" alt="">
+            </div>
+        </div>
+        <div class="section">第五屏</div>
+    </div>
+
+</body>
+
+
+</html>
